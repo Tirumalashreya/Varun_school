@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #f7f2ee;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+  color: #5a2d2f;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #5a2d2f;
+  font-size: 16px;
+}
